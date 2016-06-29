@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "gospoteric-wordbox-23",
+  "private_key_id": "108da2542377350ac5c0c8adc1c0fe77d751e32f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCTtpaIn1vgQvwO\n6nt0EbLv69n38mDf9hdKRv95yaMWQ7vhwhVhVowPPAafEvsDiwiSxbcHOD2xyZwN\nqg73S0J5Fv6DlwU0ZQzIRlG/gEC3VLLH64I7GTUradBcFB2qYN3OB86Ce//Rvtr1\n8IMPgxA3HQuSDFaTte9Tq441kq8m/acos4kTpNK/e/tKwAesGg5YNS8EFEbK3ChB\n/dak0pKQTIWThDpvEQ2p3aBFlIWK2jfV5NvcCT6nT0YGRzkG/pwNQ7Biz3mf4iWC\nk9xGjUscducclbIzzxuFhOCpBv/sHdsuy1IpJhYSpZj6SlKnGEYgn/R4nvWlvFhI\nylzZgCsnAgMBAAECggEAR9l6o34QbKdof8Dix/SL+1PXtFl7cbT8Yy7hudWwtHXB\n//AuAijc+9QQzHOpEXIhe3McsjBTIhWVCLh9iyBadxgOOOfOqku0yf4aaXHzCLn0\nNHaD5EdAq5tOtFs8itGPUlZNxv6V0uppC1QwC+2Oh6BjLmk9+591iFdcVwbAl8/w\nSCtqUIaPAYjdIWsFVDMwqZmhPuucjjMQgMl5K8N06tRzBNQF0kLJVioonswFMqMg\nh58s/Pj4m12C6Z9Q70sw+8kObKgm3OWA5m9EOiz031V1R0eoZcERaj9w1IcBfxKH\n+SwWAK1q5H04f3sXLpUj37nVxHAGgBidc4ZRP/HMwQKBgQDQnA77fDjhYLs19bdO\n6btnHHN/Nsd3kksU3eOSAG0wEo7zkBdfitNA06+Fbsg6z6DKG5/dCSAHYCPR7Bcm\nYPe76vJXff/hy3iQVnf8QyEhItwfpK5ts6L7MZkgnxRR30QyFW7dkTAeg+iyV/kj\n6XQuunWAqNZ58nFtWvWJXhL11wKBgQC1RQc2ntGhWjFSlqSbJgqlZWapMkUnB3yT\ncsx//ptgi6N42eokvSS7VpwaF7JBtzj0FwJqrIJIaaLd1yFbNVL8y6apryEwIUdP\nRjkeA6NLNBCZdov2SYUxRyU1ZgdBDtuQPRjP6WE+UvkfY4l86dbCzDBqSP+578lO\notPGoYwrMQKBgDydjBDxGIoMlHlqa5hHfEfK0ZiebzlETgLDMtQCwbddPSJytQfz\nC81jdTX9absFB8CSZFJSy3a5Lc9anaNuO63j6AUaPJb8i4zNQ1IOo3rAaVvcez6v\nGuWIlOkQsFPV3zf6WFuTS3sicyQXQfJ4bGUDkw8OgDuxAdp3uq7uoe3DAoGAI9zi\nTnYhd1DGzVYsft2J4assInFlqREcHnfp6bDPwMwfrXs/jcE2ETJTc/4YMFQ1mmUq\n/zveEsGDjWxQlyD3qDgKYyvY3xLWbuKvzjZeCjTky9feXP2ysksnG2dyK/bqjaDo\n1cmQiaoUy5b/zozdBnEravvCTGEabMpeJ8AyYSECgYEAzH1UbmlcqL7DEd71LUEr\n7M/12InrddEPyQ8R1yyoTSp+g/LkgN31OOwOx36rMBbO/FpqmNCdaZLGUC5mvlDW\n4ZvPwdp46/zl15dH5GdwX520WKU93ptkk/hDmcrTsSkufd9Ad/KtMv3JK/Wps3GH\n8Gu8z57jazPzW7tcUDBsb+Q=\n-----END PRIVATE KEY-----\n",
+  "client_email": "wordappadmin200232@gospoteric-wordbox-23.iam.gserviceaccount.com",
+  "client_id": "103641538384469602262",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/wordappadmin200232%40gospoteric-wordbox-23.iam.gserviceaccount.com"
+}

@@ -1,0 +1,52 @@
+extends ../layout
+block content
+	h1 New Church/Organization		
+	div(class='container')
+		div(class='container-fluid')
+			div(class='row')
+				div(class='col-md-6')
+					div(class='form form-horizontal')
+						form#formNewOrg(name="addorg", method='post', action="/org")
+							div.form-group 
+								label(for='name') Name:
+								input(type="text", class='form-control', name='name', placeholder='Our Favourite Church Of God')
+							div.form-group 
+								label(for='type') Type:
+								select(class='form-control', name='type')
+									option(value='Church') Church
+									option(value='Org') Non Church Organisation
+							div.form-group
+								label(for='street') Address
+								input(type='text', class='form-control', name='street')
+								label(for='city') City
+								input(type='text', class='form-control', name='city')
+								label(for='State') State
+								input(type='text', class='form-control', name='state')
+								label(for='country') Country
+								input(type='text', class='form-control', name='Country')
+							div.form-group
+								label(for='web') Web Address
+								input(type='text', class='form-control', name='web', placeholder='ourchurch.com')
+							div.form-group
+								label(for='facebook') Facebook Id
+								div.input-group
+									span.input-group-addon(id='basic-addon3') facebook.com/
+									input(type='text', class='form-control', name='facebook', placeholder='OurChurchPage')
+							div.form-group
+								label(for='twitter') Twitter Handle
+								div.input-group
+									span.input-group-addon(id='basic-addon3') @
+									input(type='text', class='form-control', name='twitter')
+							div.form-group
+								label(for='info') Info
+								textarea(class='form-control', name='info')
+							div.form-group(id="image_div")
+								label(for='img') Display Image (png and jpg formats only)
+								div.input-group
+									input(type='file', id='file', class='form-control', name='file', accept="image/*")
+									span.input-group-btn
+										button(class='btn btn-primary' id='upload') Upload
+							div.form-group(id='upload_progress')
+							div.form-group
+								input(type='hidden' name='img' id='img_hidden')
+								button#btnSubmit(type='submit', class='btn btn-primary' ) Submit

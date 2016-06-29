@@ -1,0 +1,31 @@
+extends ../layout
+
+block content
+	div(class='container')
+		div(class='container-fluid')
+			div(class='row')
+				h1= title 		
+					span
+						a(href='/org/new', class='btn btn-primary') Create New
+				table(class='table')
+					- each org, i in orgs
+						tr
+							td 
+								a(href='/org/#{i}')= org.name
+									br
+									= org.addr
+							td= org.type
+							td= org.status
+							td
+								a(href='/speakers') Speakers
+								br
+								a(href='/speakers/new/?church=#{i}') New Speaker
+							td
+								a(href='/messages') Messages
+								br
+								a(href='/messages/new/?church=#{i}') New Message
+							td
+								a(href='/org/#{i}/edit') Edit
+								form(action='/org/#{i}', method='post', enctype='application/x-www-form-urlencoded')
+									input(type='hidden',value='delete',name='_method')
+									button(type='submit') Delete
